@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sistema1228"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".content.HombreGris"
+            android:exported="false"
+            android:label="@string/title_activity_hombre_gris"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.ui.theme.HombreGris"
+            android:exported="false"
+            android:label="@string/title_activity_hombre_gris"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.Peliculas"
+            android:exported="false"
+            android:label="@string/title_activity_peliculas"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.BladeRunner"
+            android:exported="false"
+            android:label="@string/title_activity_blade_runner"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".MiPerfil"
+            android:exported="false"
+            android:label="@string/title_activity_mi_perfil"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".Buscar"
+            android:exported="false"
+            android:label="@string/title_activity_buscar"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".Favoritos"
+            android:exported="false"
+            android:label="@string/title_activity_favoritos"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.StoreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_store"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.EmployeesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employees"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".content.SuppliersActivity"
+            android:exported="false"
+            android:label="@string/title_activity_suppliers"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.Sistema1228">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_terms"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".BeginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_begin"
+            android:theme="@style/Theme.Sistema1228" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sistema1228" />
+    </application>
+
+</manifest>
